@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOID CRAFT | YouTube</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080510;color:white;font-family:Tahoma,Arial,sans-serif;text-align:center}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#130b20;border-bottom:1px solid #8b35ff}
+.logo{color:#c49aff;font-size:20px;font-weight:bold}
+button,.link{background:#7c2cff;color:white;border:0;border-radius:8px;padding:9px 13px;text-decoration:none;font-size:13px}
+#menu{display:none;background:#171024;padding:8px}
+#menu a{display:block;color:white;text-decoration:none;padding:12px}
+.hero{padding:70px 15px;background:radial-gradient(ellipse at top,#482075,#080510 75%)}
+.hero h1{font-size:38px;color:#c49aff;text-shadow:0 0 20px #812cff}
+.hero p{line-height:2;color:#ddd0ee}
+.card{width:90%;max-width:430px;margin:22px auto;padding:24px;background:#140e20;border:1px solid #58308a;border-radius:15px}
+.card h2{color:#c49aff}
+footer{padding:25px;color:#9989ad;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">VOID CRAFT</div>
+  <button onclick="toggleMenu()">☰ منو</button>
+</header>
+
+<nav id="menu">
+  <a href="#about">درباره کانال</a>
+  <a href="https://www.youtube.com/@BehzadVoid">کانال یوتیوب</a>
+  <a href="https://kbehzad835-bit.github.io/Void-Craft/">سایت اصلی</a>
+</nav>
+
+<section class="hero">
+  <h1>VOID CRAFT</h1>
+  <p>دنیای ماینکرفت از دریچهٔ ویدهای بنفش! 💜</p>
+  <p>آماده‌ای برای ماجراجویی؟</p>
+  <a class="link" href="https://www.youtube.com/@BehzadVoid">▶ ورود به کانال یوتیوب</a>
+</section>
+
+<section class="card" id="about">
+  <h2>🎮 درباره کانال</h2>
+  <p>به دنیای VOID CRAFT خوش اومدی!</p>
+  <p>اینجا قراره با ماینکرفت، گیمینگ و ماجراجویی کلی حال کنیم.</p>
+  <a class="link" href="https://www.youtube.com/@BehzadVoid">مشاهده کانال</a>
+</section>
+
+<section class="card">
+  <h2>💜 همراه ما باش</h2>
+  <p>برای دیدن ویدیوها و دنبال کردن کانال، وارد یوتیوب شو.</p>
+  <a class="link" href="https://www.youtube.com/@BehzadVoid">YouTube</a>
+</section>
+
+<footer>© VOID CRAFT | Minecraft Gaming</footer>
+
+<script>
+function toggleMenu(){
+  const menu=document.getElementById("menu");
+  menu.style.display=menu.style.display==="block"?"none":"block";
+}
+</script>
+</body>
+</html>
